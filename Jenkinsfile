@@ -42,9 +42,6 @@ spec:
         container('maven') {
           sh 'mvn -B -DskipTests clean package'
         }
-		container('docker') {
-          sh 'docker build -t my-app:$BUILD_NUMBER'
-        }
       }
     }
 	
@@ -52,6 +49,14 @@ spec:
       steps {
         container('maven') {
           sh 'mvn test'
+        }
+      }
+    }
+	
+	stage('Build') {
+      steps {
+        container('docker') {
+          sh 'docker build -t my-app:$BUILD_NUMBER'
         }
       }
     }
