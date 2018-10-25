@@ -56,10 +56,11 @@ spec:
 	stage('Docker') {
       steps {
         container('docker') {
+		  sh 'ls'
           sh 'docker build -t my-app:$BUILD_NUMBER .'
         }
       }
     }
-}
+ }
 
 }
