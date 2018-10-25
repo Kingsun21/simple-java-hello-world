@@ -7,6 +7,5 @@ ROUGE
 BIZARRE
 
 ## 1.11
-MASTER -> MASTER
-BIZARRE -> DEVELOP
-RESOLVE -> FEATURE
+Il y a develop et master
+Develop c'est pour merger toutes les fonctionnalités puis les tester, et master c'est la production, avec un code fonctionnel.
