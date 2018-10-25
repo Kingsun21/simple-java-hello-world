@@ -10,4 +10,4 @@
 Qu'est ce qu'un pod ? -> un truc pour la lessive
 
 ## Ultra Hardcore
-La couleur de ma chemise au premier cours ? -> noir
+La couleur de ma chemise au premier cours ? -> noir ou bleu nuit
